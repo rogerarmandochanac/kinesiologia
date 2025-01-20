@@ -1,8 +1,10 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
     <title>Kinesiologia</title>
     {% load bootstrap5 %}
     {% bootstrap_css %}
@@ -10,5 +12,6 @@
 </head>
 <body>
     {% include 'snipets/navbar.html' %}
+    {% include 'snipets/carousel.html' %}
 </body>
 </html>
