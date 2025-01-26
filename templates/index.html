@@ -1,17 +1,5 @@
 {% extends 'base.html' %}
 {% block container %}
-    <header class="sticky-top">
-            <div class="d-flex p-2 justify-content-between align-items-center bg-success container-fluid">
-                <div class="">
-                    <a href="" class="text-decoration-none text-light">Reserva en menos de 1 minuto</a>
-                </div>
-                <div class="text-light">
-                    <a href="" class="text-decoration-none text-light">APP IOS</a>
-                    /
-                    <a href="" class="text-decoration-none text-light">APP Android</a>
-                </div>
-            </div>
-            </div>
-        {% include 'snipets/navbar.html'%}
-    </header>
+{% include 'snipets/navbar.html'%}
+{% include 'snipets/carousel.html' %}
 {% endblock %}
